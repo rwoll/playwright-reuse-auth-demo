@@ -21,6 +21,5 @@ const fs = require('fs');
   const page = await context.newPage();
   await page.goto("https://rwoll.github.io/playwright-reuse-auth-demo/index.html");
 
-  // Keep the page open for demo purposes
-  await new Promise(() => {});
+  await page.waitForTimeout(10000);
 })()
