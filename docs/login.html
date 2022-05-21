@@ -14,14 +14,14 @@
       <input id="username" type="text" placeholder="username" required />
     </form>
     <script>
-      document.getElementById("form").addEventListener("submit", (evt) => {
+      document.getElementById("login").addEventListener("submit", (evt) => {
         evt.preventDefault();
         window.localStorage.setItem(
           "username",
           document.getElementById("username").value
         );
+        window.location.replace("/playwright-reuse-auth-demo/index.html");
       });
-      window.location.replace("/playwright-reuse-auth-demo/index.html");
     </script>
   </body>
 </html>
