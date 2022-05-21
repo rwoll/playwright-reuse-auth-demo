@@ -1,0 +1,15 @@
+{
+  "name": "playwright-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "npx playwright open --save-storage=./auth.json https://rwoll.github.io/playwright-reuse-auth-demo/index.html",
+    "start": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.22.1"
+  }
+}

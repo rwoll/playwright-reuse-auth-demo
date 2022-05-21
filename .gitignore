@@ -1,7 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,node,emacs,vim
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,node,emacs,vim
-
+auth.json
 ### Emacs ###
 # -*- mode: gitignore; -*-
 *~

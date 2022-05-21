@@ -9,10 +9,12 @@
         window.location.replace("/playwright-reuse-auth-demo/login.html");
     </script>
     <h1>Dashboard</h1>
+    <div id="status"></div>
     <p>Hello, <span id="username">{username}</span>!</p>
     <script>
       document.getElementById("username").innerText =
         window.localStorage.getItem("username");
+      document.getElementById("status").innerText = "logged in";
     </script>
   </body>
 </html>
