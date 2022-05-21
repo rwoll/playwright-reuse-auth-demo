@@ -21,3 +21,13 @@ You can now run and observe you are already authenticated! You can run this repe
 ```
 $ npm start
 ```
+
+The important bit is:
+
+```js
+  const context = await browser.newContext({
+    storageState: './auth.json'
+  });
+```
+
+in `index.js`.

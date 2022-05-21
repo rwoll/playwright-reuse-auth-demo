@@ -14,7 +14,7 @@ If you're using Playwright Test, see the README.md in the playwright-test folder
 
 If you're using Playwright as a Library, see the README.md in the playwright-library folder.
 
-Both the above strategies rely on saving authentication state from the manual run to disk, so subsequent automated runs can pick up and use.
+Both the above strategies rely on saving authentication state from a manual run to disk, so subsequent automated runs can pick up and use it.
 Be sure to .gitignore your auth state!
 
 > **Warning**
